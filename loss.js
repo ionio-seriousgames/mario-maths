@@ -50,10 +50,10 @@ Game.loss.prototype = {
         sum10Text = game.add.text(15,200,'sum10=',{fontSize: '32px',fill : '#000'});
        }
         
-        apotelesmataText = game.add.text(15,430,'Επέλεξες λάθος τους αριθμούς',{fontSize: '32px',fill : '#000'});
+        apotelesmataText = game.add.text(15,430,'You chose wrong the numbers',{fontSize: '32px',fill : '#000'});
        
         pinakas = apotelesmata.join(" , ");
-        apotelesmataText.text = 'Επέλεξες λάθος τους αριθμούς ' + pinakas;
+        apotelesmataText.text = 'You chose wrong the numbers ' + pinakas;
         //lossScreen = game.add.sprite(game.world.centerX -800,game.world.centerY + 25,'lossScreen');
         //lossScreen.anchor.setTo(0.5,0.5);
   
@@ -83,55 +83,55 @@ Game.loss.prototype = {
         //Εμφάνιση των αποτελεσμάτων σύμφωνα με τα Learning Analytics
         //Ελέγχεται το πλήθος της κάθε μεταβλητής ώστε να υπάρχει σωστή διατύπωση σε ενικό ή πληθυντικό αντίστοιχα
        if(x==2 && sum2!==1 && lathos!==1){
-        sum2Text.text = 'Βρήκες σωστά ' + sum2 + ' αριθμούς από\nτους ' + s2 + ' που διαιρούνται με το 2! \n Αλλά επέλεξες λάθος ' + lathos + ' αριθμούς';
+        sum2Text.text = 'You found right ' + sum2 + ' numbers\nfrom ' + s2 + ' which are divisible with 2! \n But you chose wrong ' + lathos + ' numbers';
        }
         if(x==3 && sum3!==1 && lathos !==1){
-        sum3Text.text = 'Βρήκες σωστά ' + sum3 + ' αριθμούς από\nτους ' + s3 + ' που διαιρούνται με το 3! \n Αλλά επέλεξες λάθος ' + lathos + ' αριθμούς';
+        sum3Text.text = 'You found right ' + sum3 + ' numbers\nfrom ' + s3 + ' which are divisible with 3! \n But you chose wrong ' + lathos + ' numbers';
         }
         if(x==5 && sum5!==1 && lathos!==1){
-        sum5Text.text = 'Βρήκες σωστά ' + sum5 + ' αριθμούς από\nτους ' + s5 + ' που διαιρούνται με το 5! \n Αλλά επέλεξες λάθος ' + lathos + ' αριθμούς';
+        sum5Text.text = 'You found right ' + sum5 + ' numbers\nfrom ' + s5 + ' which are divisible with 5! \n But you chose wrong ' + lathos + ' numbers';
         }
         if(x==10 && sum10!==1 && lathos!==1){
-        sum10Text.text = 'Βρήκες σωστά ' + sum10 + ' αριθμούς από\nτους ' + s10 + ' που διαιρούνται με το 10! \n Αλλά επέλεξες λάθος ' + lathos + ' αριθμούς';
+        sum10Text.text = 'You found right ' + sum10 + ' numbers\nfrom ' + s10 + ' which are divisible with 10! \n But you chose wrong ' + lathos + ' numbers';
         }
         
         if(x==2 && sum2==1 && lathos!==1){
-        sum2Text.text = 'Βρήκες σωστά ' + sum2 + ' αριθμό από\nτους ' + s2 + ' που διαιρούνται με το 2! \n Αλλά επέλεξες λάθος ' + lathos + ' αριθμούς';
+        sum2Text.text = 'You found right ' + sum2 + ' number\nfrom ' + s2 + ' which are divisible with 2! \n But you chose wrong ' + lathos + ' numbers';
        }
         if(x==3 && sum3==1 && lathos!==1){
-        sum3Text.text = 'Βρήκες σωστά ' + sum3 + ' αριθμό από\nτους ' + s3 + ' που διαιρούνται με το 3! \n Αλλά επέλεξες λάθος ' + lathos + ' αριθμούς';
+        sum3Text.text = 'You found right ' + sum3 + ' number\nfrom ' + s3 + ' which are divisible with 3! \n But you chose wrong ' + lathos + ' numbers';
         }
         if(x==5 && sum5==1 && lathos!==1){
-        sum5Text.text = 'Βρήκες σωστά ' + sum5 + ' αριθμό από\nτους ' + s5 + ' που διαιρούνται με το 5! \n Αλλά επέλεξες λάθος ' + lathos + ' αριθμούς';
+        sum5Text.text = 'You found right ' + sum5 + ' number\nfrom ' + s5 + ' which are divisible with 5! \n But you chose wrong ' + lathos + ' numbers';
         }
          if(x==10 && sum10==1 && lathos!==1){
-        sum10Text.text = 'Βρήκες σωστά ' + sum10 + ' αριθμό από\nτους ' + s10 + ' που διαιρούνται με το 10! \n Αλλά επέλεξες λάθος ' + lathos + ' αριθμούς';
+        sum10Text.text = 'You found right ' + sum10 + ' number\nfrom ' + s10 + ' which are divisible with 10! \n But you chose wrong ' + lathos + ' numbers';
         }
         
         if(x==2 && sum2!==1 && lathos==1){
-        sum2Text.text = 'Βρήκες σωστά ' + sum2 + ' αριθμούς από\nτους ' + s2 + ' που διαιρούνται με το 2! \n Αλλά επέλεξες λάθος ' + lathos + ' αριθμό';
+        sum2Text.text = 'You found right ' + sum2 + ' numbers\nfrom ' + s2 + ' which are divisible with 2! \n But you chose wrong ' + lathos + ' αριθμό';
        }
         if(x==3 && sum3!==1 && lathos==1){
-        sum3Text.text = 'Βρήκες σωστά ' + sum3 + ' αριθμούς από\nτους ' + s3 + ' που διαιρούνται με το 3! \n Αλλά επέλεξες λάθος ' + lathos + ' αριθμό';
+        sum3Text.text = 'You found right ' + sum3 + ' numbers\nfrom ' + s3 + ' which are divisible with 3! \n But you chose wrong ' + lathos + ' number';
         }
         if(x==5 && sum5!==1 && lathos==1){
-        sum5Text.text = 'Βρήκες σωστά ' + sum5 + ' αριθμούς από\nτους ' +s5 + ' που διαιρούνται με το 5! \n Αλλά επέλεξες λάθος ' + lathos + ' αριθμό';
+        sum5Text.text = 'You found right ' + sum5 + ' numbers\nfrom ' +s5 + ' which are divisible with 5! \n But you chose wrong ' + lathos + ' number';
         }
          if(x==10 && sum10!==1 && lathos==1){
-        sum10Text.text = 'Βρήκες σωστά ' + sum10 + ' αριθμούς από\nτους ' +s10 + ' που διαιρούνται με το 10! \n Αλλά επέλεξες λάθος ' + lathos + ' αριθμό';
+        sum10Text.text = 'You found right ' + sum10 + ' numbers\nfrom ' +s10 + ' which are divisible with 10! \n But you chose wrong ' + lathos + ' number';
         }
         
         if(x==2 && sum2==1 && lathos==1){
-        sum2Text.text = 'Βρήκες σωστά ' + sum2 + ' αριθμό από\nτους ' + s2 + ' που διαιρούνται με το 2! \n Αλλά επέλεξες λάθος ' + lathos + ' αριθμό';
+        sum2Text.text = 'You found right ' + sum2 + ' number\nfrom ' + s2 + ' which are divisible with 2! \n But you chose wrong ' + lathos + ' number';
        }
         if(x==3 && sum3==1 && lathos==1){
-        sum3Text.text = 'Βρήκες σωστά ' + sum3 + ' αριθμό από\nτους ' + s3 + ' που διαιρούνται με το 3! \n Αλλά επέλεξες λάθος ' + lathos + ' αριθμό';
+        sum3Text.text = 'You found right ' + sum3 + ' number\nfrom ' + s3 + ' which are divisible with 3! \n But you chose wrong ' + lathos + ' number';
         }
         if(x==5 && sum5==1 && lathos==1){
-        sum5Text.text = 'Βρήκες σωστά ' + sum5 + ' αριθμό από\nτους ' + s5 + ' που διαιρούνται με το 5! \n Αλλά επέλεξες λάθος ' + lathos + ' αριθμό';
+        sum5Text.text = 'You found right ' + sum5 + ' number\nfrom ' + s5 + ' which are divisible with 5! \n Αλλά επέλεξες λάθος ' + lathos + ' number';
         }
         if(x==10 && sum10==1 && lathos==1){
-        sum10Text.text = 'Βρήκες σωστά ' + sum10 + ' αριθμό από\nτους ' + s10 + ' που διαιρούνται με το 10! \n Αλλά επέλεξες λάθος ' + lathos + ' αριθμό';
+        sum10Text.text = 'You found right ' + sum10 + ' number\nfrom ' + s10 + ' which are divisible with 10! \n But you chose wrong ' + lathos + ' number';
         }
         
         

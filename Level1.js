@@ -1457,7 +1457,7 @@ Game.Level1.prototype = {
         //Εμφάνιση μηνύματος λάθους στην πίστα λάθους
         if(lathosekkinisi==true){
            this.physics.arcade.gravity.y = 1000;
-             numberText.text = 'Ο αριθμός ' + number + ' δεν διαιρείται με το ' + x + ' αλλά με \n κάποιον από τους παρακάτω. Προσπάθησε \n να τον βρεις για να προχωρήσεις ';
+             numberText.text = 'The number ' + number + ' is not divisible with ' + x + ' but with \n someone from the followings. Try \n to find it to continue ';
         }
         
         //Εμφάνιση του αντίστοιχου εκπαιδευτικού μηνύματος λάθους ανάλογα με τον αριθμό για 2 sec
