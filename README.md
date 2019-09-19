@@ -17,7 +17,7 @@ Before creating the JavaScript files it is important to create two folders conta
 The next file in the creation order is MainMenu.js, which is responsible for displaying and operating the main menu. At this point, the Play and Controls buttons and the background that appears in the menu are created. The Play button must lead the user to the narrative of the game and the Controls button must lead to the screen with controls. The Controls.js file is responsible for displaying this screen, which also displays the Play button to direct this user to the narrative as long as it has been updated for the keys. The afigisi.js is responsible for the narrative. In that file, the information that is needed for the competition of the game is stored, in the form of images. When the game runs, each picture stays on the screen for four seconds and then is followed by the next one. The player is also presented with a skip button, so that they can move ahead if they do not want to follow the entire narrative. When the user clicks the “skip” button the narration ends. The buttons containing the numbers 2,3,5 and 10 are also created through this file, at the end of the narration. After the end of the narration, the user chooses the desired divisibility criterion and then is prompted to choose between the two main characters (Mario and Luigi). Once the user selects the corresponding button, it is moved to the main track of the game. The main part of the game corresponds to the file Level1.js.
 
 
-Greek version
+
 
 ### Starting the game – Main Stage
 
