@@ -26,10 +26,14 @@ Some characters are associated with only one image, while others have some form 
 
 ### Game flow controls
 
+
+
 After all of the above appears on the level, a continuous check of various functions in each frame of the game begins. One of these checks is the collision of the character controlled by the user with a circular number box. So, when the user collides with a number, a series of actions takes place. If this number is a correct answer then the score is increased by one hundred points, the corresponding sound of the correct selection is activated, the number is transferred to the top of the screen, the correct answer is increased and checked if it is equal to five, so that the user can gain a life. If the number is an incorrect option then the corresponding error selection sounds, the box is deleted, the amount of incorrect choices is increased, the number is stored, and the user is transferred to the error level. In the error level a message is displayed informing the user that this number is not divided by the number they have chosen to play with and, that they have to find the correct answer to continue. In this new track there is a change of background and some more pictures to fit the occasion. There also appear the remaining numbers of 2,3,5 and 10 in circular frames so that the user can choose the correct one and then be returned to the basic level of the game. At this point, collision checks are performed on each number until the correct one is selected by the user. One more check made on each frame of the game involves the collision of the base character with other characters such as enemies or some auxiliary characters such as the moving bridge and propeller that help the user to pass certain obstacles. The actions that take place when it comes to enemies is to remove a life and the corresponding sound, as well as to transfer the character to a specific point back to the level. Another important check regards the shooting function and more specifically the collision of the projectile with the circular frame of each number. In this case the number is deleted and the user wins a life if the number is the wrong choice.
 
 
 ### End of the game - Results screens
 
 The latest collision control that is done is about ending the game. If the user has correctly selected ten numbers, the winning screen is displayed, otherwise the defeat screen is displayed. Managing these two screens is done by creating the gameover.js and loss.js files respectively. These files are responsible for displaying the user's educational results as well.
+
+[Το Mario maths στα ελληνικά](https://github.com/ionio-seriousgames/Mario-Maths-in-Greek)
 
